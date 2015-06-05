@@ -1,0 +1,17 @@
+*{
+margin:0;}
+body{
+padding:50px;}
+#info{
+float:left;
+padding:70px;}
+#resume{
+float:right;
+padding-right:35px;}
+#projects{
+clear:both;
+padding:50px;}
+h1{
+font-size:10em;
+text-align: center;
+}
