@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('a[rel="ireland"]').colorbox({
+  $('a[rel="gallery"]').colorbox({
     width: '60%',
     height: '70%',
     slideshow: true,

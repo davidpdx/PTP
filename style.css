@@ -7,6 +7,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	background-color: #eee;
+	font-family: Quicksand, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 nav {
 	width: 100%; 
@@ -20,6 +21,7 @@ nav {
 	padding-top: 0; 
 	padding-bottom: 0;
 	border-bottom: 2px solid #333;
+	z-index: 1;
 }
 nav ul {
 	width: 88%; 
@@ -121,7 +123,7 @@ h3 {
 	height: 1.5em; 
 	background-color: #222;
 }
-#register {
+/*#register {
 	font-family: Quicksand, "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
 	padding: 0.5em 1.5em; 
 	margin: 1em; 
@@ -132,7 +134,7 @@ h3 {
 }
 #register:hover {
 	background-color: #333;
-}
+}*/
 .active {
 	background-color: #333;
 }
@@ -222,20 +224,22 @@ footer a {
 }
 footer a:hover{
 	color: #FF6699;
-	font-weight: bold;
+	*/font-weight: bold;*/
 }
 
 #col1{
-width: 40%;
-float: left;
-padding: 4%;
-font-style: italic;
+	width: 90%;
+	float: left;
+	padding: 4% 4% 0 4%;
+	font-style: italic;
 }
 #col2{
-width: 40%;
-padding: 4% 4% 4% 50%;
+width: auto;
+padding: 0 4% 4%;
 text-align: left;
 font-style: italic;
+float: left;
+clear:both;
 }
 
 h5{
@@ -247,3 +251,51 @@ padding: 2%;
 
 .gallery{
 clear: both;}
+
+#tabs {
+	padding-top: 0.2em;
+}
+#tabs h2{
+	text-align: left;
+}
+
+#tabs ol {
+	text-align: left;
+	list-style-type: decimal;
+	padding-left: 2em;
+}
+#col1 h5 {
+	text-align: left;
+}
+#col1 li {
+	padding-left: 0.5em;
+}
+#col2 p {
+	text-align: left;
+	padding-left: 2em;
+}
+.location {
+	font-size: 0.6em;
+}
+#col1 ul {
+	text-align: center;
+	width: auto;
+	margin: 0 auto;
+}
+#col1 li {
+	display: inline;
+	
+	
+}
+.centerme {
+	text-align: center;
+}
+.candidate_social {
+	padding-top: 0.2em;
+}
+#info {
+	padding: 0 2em;
+}
+#info p {
+	text-align: left;
+}
