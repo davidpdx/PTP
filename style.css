@@ -25,13 +25,14 @@ nav {
 }
 nav ul {
 	width: 88%; 
-	padding-left: 12%;
+	/*padding-left: 12%;*/
+	margin-left: 10%;	
 }
 nav ul li {
 	display: inline-block; 
 	line-height: 1.5em;
 	margin: 0.7em auto 0.5em auto; 
-	float: left;
+	/*float: left;*/
 }
 nav a {
 	text-decoration: none; 
@@ -118,39 +119,26 @@ h3 {
 	font-weight: bold;
 	line-height: 1.5;
 }
-
 .hr1 {
 	height: 1.5em; 
 	background-color: #222;
 }
-/*#register {
-	font-family: Quicksand, "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
-	padding: 0.5em 1.5em; 
-	margin: 1em; 
-	background-color: #222; 
-	color: #fff; 
-	font-size: 1.6em; 
-	box-shadow: 0.1em 0.1em 0.1em #222;
-}
-#register:hover {
-	background-color: #333;
-}*/
 .active {
 	background-color: #333;
 }
 .floatleft {
 	float: left;
 }
-.floatright {
+/*.floatright {
 	float: right;
-}
+}*/
 header ul li.social {
 	float: right;
 	display: inline-block;	
-	padding: 0 0.3em 0 0;
+	/*padding: 0 0.3em 0 0;*/ padding-right: 15%;
 }
 header ul li.social a {
-	float: right;
+	/*float: right;*/
 	padding: 0;
 }
 #header {
@@ -171,7 +159,10 @@ nav img {padding: 0; margin: 0;}
 	background-color: #222;
 }
 
-li.btn {margin-top: 0.8em;}
+li.btn {
+	margin-top: 0.8em;
+	margin-left: 2em;
+}
 .btn a {
   background: #444444;
   background-image: -webkit-linear-gradient(top, #444444, #333333);
